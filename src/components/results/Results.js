@@ -17,7 +17,6 @@ function Results(props) {
             Email
           </th>
           <th scope="col" onClick={props.sortByDOB}>
-              onClick={props.sortByDOB}
             DOB
           </th>
         </tr>

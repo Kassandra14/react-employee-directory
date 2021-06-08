@@ -10,10 +10,10 @@ function Search({ search, handleFormSubmit, handleInputChange }) {
       <div className="form-group">
         <Navbar />
         <label className="monospace">
-          Click heading arrows to sort, or narrow results with the searchbox.
+          Click column headings to sort by that value:
         </label>
         <div className="inputContainer">
-          <input
+          {/* <input
             // {search} handles the search value
             value={search}
             onChange={handleInputChange}
@@ -22,7 +22,7 @@ function Search({ search, handleFormSubmit, handleInputChange }) {
             className="Field"
             placeholder="Search"
             id="search"
-          />
+          /> */}
         </div>
       </div>
     </form>
