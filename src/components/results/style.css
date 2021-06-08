@@ -6,7 +6,7 @@ th .pointer :hover {
   }
   
   table tbody {
-    border: grey solid 2px;
+    border: chartreuse;
   
     margin: auto;
     padding: 20px;
